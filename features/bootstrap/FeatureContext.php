@@ -36,4 +36,46 @@ class FeatureContext extends BrowserStackContext {
       throw new Exception("Expected to see: '". $string. "'' Actual is: '". $source. "'");
     }
   }
+
+  //new methods ( Phasee -1 ) Apr 21, 2021 ( to be implemented )
+
+  /**
+     * @Given /^a web browser is at the SeasonalJobs home page$/
+     */
+    public function atTheSeasonaljobsHomePage()
+    {
+        //throw new PendingException();
+    }
+
+    /**
+     * @Given /^the user fills in "([^"]*)" for "([^"]*)"$/
+     */
+    public function userFillsInFormSearch($arg1, $arg2)
+    {
+        //throw new PendingException();
+    }
+
+    /**
+     * @Given /^the user fill in "([^"]*)" for "([^"]*)"$/
+     */
+    public function userFillInFormLocation($arg1, $arg2)
+    {
+        //throw new PendingException();
+    }
+
+    /**
+     * @Then /^the user should get a result with "([^"]*)"$/
+     */
+    public function userShouldGetAResultWith($arg1)
+    {
+        //throw new PendingException();
+    }
+
+    /**
+     * @Given /^the user should see the address "([^"]*)"$/
+     */
+    public function userShouldSeeTheAddress($arg1)
+    {
+        //throw new PendingException();
+    }
 }
